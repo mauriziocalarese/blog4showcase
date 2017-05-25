@@ -26,22 +26,3 @@ Route::get('/logout', 'SessionsController@destroy');
 
 
 Route::get('/posts/tags/{tag}', 'TagsController@index'); 
-
-
-//Route::get('/tasks', 'TasksController@index');
-
-//Route::get('/tasks/{task}', 'TasksController@show');
-
-
-//Route::get('/', function () {
-//
-//    $name = 'Kyo';
-//    return view('welcome', compact('name'));
-//
-//});
-//
-//Route::get('/about', function(){
-//
-//   return view('about');
-//
-//});
